@@ -7,7 +7,7 @@ public class DriverFactory {
 
 	public static WebDriver getWebDriver(String browser) {
 		if (browser.equals("Firefox")) {
-		 System.setProperty("webdriver.gecko.driver", "/home/amarmodi/Desktop/geckodriver");
+		 System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
          FirefoxDriver firefoxDriver = new FirefoxDriver();
          firefoxDriver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
          return firefoxDriver;
