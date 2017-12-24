@@ -8,7 +8,9 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="features",
-		glue="modi.amar.cucumber.testing.cucumber.stepImplementations")
+		glue="modi.amar.cucumber.testing.cucumber.stepImplementations",
+		tags= {"@FunctionalTest"}
+		)
 public class LoginTestRunner {
 	
 }

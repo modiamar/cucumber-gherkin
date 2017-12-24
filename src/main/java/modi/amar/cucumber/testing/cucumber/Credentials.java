@@ -1,4 +1,4 @@
-package modi.amar.cucumber.testing.cucumber.stepImplementations;
+package modi.amar.cucumber.testing.cucumber;
 
 public class Credentials {
 	
